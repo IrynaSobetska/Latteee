@@ -1,0 +1,13 @@
+<div class="header-component dark">
+    <a [routerLink]="['/main']">
+        <h1>Latteee</h1>
+    </a>
+
+    <div class="routes">
+        <a [routerLink]="['/menu']" routerLinkActive="active-link">Menu</a>
+        <a [routerLink]="['/gifts']" routerLinkActive="active-link">Gifts</a>
+        <a [routerLink]="['/rewards']" routerLinkActive="active-link">Rewards</a>
+        <a [routerLink]="['/main']" routerLinkActive="active-link">About</a>
+        <a class="account" [routerLink]="['account']"><img src="/account.svg" alt=""></a>
+    </div>
+</div>

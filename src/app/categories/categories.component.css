@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: column;
+
+    margin: 3em 2em;
+}
+
+.category-container {
+    margin: 1em;
+    margin-left: 2em;
+}
+
+.category {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 1em;
+    margin-left: 2em;
+    margin-bottom: 0;
+}
+
+.title {
+    font-size: larger;
+}
+
+h2 {
+    font-size: xx-large;
+    font-weight: 300;
+
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .container {
+        margin: 1.5em 0.7em;
+    }
+
+    .category-container {
+        margin: 0.5em;
+    }
+
+    .category {
+        margin: 1em;
+        margin-right: 0.5em;
+        margin-bottom: 0;
+    }
+}

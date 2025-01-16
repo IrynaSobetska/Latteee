@@ -1,0 +1,194 @@
+h2 {
+    margin: 0;
+}
+
+p {
+    margin: 2em 0;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome {
+    padding: 3em 0;
+    width: 100%;
+}
+
+.welcome div {
+    padding: 1em;
+}
+
+.welcome img {
+    max-width: 25%;
+    padding: 1em;
+}
+
+.about {
+    margin: 3em;
+    text-align: center;
+}
+
+.about div {
+    padding: 2em;
+}
+
+.about img {
+    max-width: 25%;
+}
+
+.cards {
+    margin: 4em 2em;
+}
+
+.cards img {
+    max-width: 100%;
+}
+
+.rewards {
+    margin: 5em 2em;
+    text-align: center;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.rewards img {
+    max-width: 25%;
+    position: relative;
+    right: -15em;
+}
+
+.community {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2em 0;
+}
+
+.community p {
+    width: 50%;
+    padding: 2em;
+    margin: 0;
+}
+
+.community-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    padding-bottom: 2em;
+}
+
+.img-list img {
+    max-width: 20%;
+    margin: 1em;
+}
+
+@media (max-width: 767px) {
+    .box {
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .text {
+        align-items: flex-start;
+        margin-left: 10%;
+    }
+
+    .welcome {
+        padding-bottom: 0;
+    }
+
+    .welcome img {
+        max-width: 35%;
+        position: relative;
+        right: -50%;
+        bottom: 3em;
+        padding-bottom: 0;
+    }
+
+    .about {
+        margin: 2em 1em;
+        margin-bottom: 0;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .about-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        width: 65%;
+        position: relative;
+        bottom: 5em;
+    }
+
+    .about div {
+        padding: 1em;
+    }
+
+    .about img {
+        position: relative;
+        left: -75%;
+    }
+
+    .cards {
+        margin: 0 1em;
+    }
+
+    .cards .text {
+        margin-left: 0;
+    }
+
+    .cards img {
+        max-width: 50%;
+
+        position: relative;
+        left: 25%;
+        bottom: 2em;
+    }
+
+    .rewards {
+        margin: 1em;
+    }
+
+    .rewards img {
+        max-width: 20%;
+        position: relative;
+        right: -2em;
+    }
+
+    .community {
+        padding-bottom: 1em;
+    }
+
+    .community-text {
+        flex-direction: column;
+        padding-bottom: 1em;
+    }
+
+    .community p {
+        width: 80%;
+        padding: 1em;
+    }
+
+    .img-list img {
+        max-width: 20%;
+        margin: 0.3em;
+    }
+}

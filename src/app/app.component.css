@@ -1,0 +1,14 @@
+.app-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+
+    background: var(--bege);
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}

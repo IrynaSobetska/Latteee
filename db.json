@@ -1,0 +1,1330 @@
+{
+    "drinks": [
+        {
+            "name": "Coffees",
+            "list": [
+                {
+                    "name": "Americano",
+                    "list": [
+                        {
+                            "name": "Caffee Americano",
+                            "img": "/img01.jpg",
+                            "description": "A smooth and bold coffee made by diluting espresso with hot water, creating a lighter yet flavorful drink.",
+                            "ingredients": [
+                                "Espresso",
+                                "Hot Water"
+                            ],
+                            "size": [
+                                "8 oz",
+                                "12 oz"
+                            ],
+                            "price": [
+                                4,
+                                6
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Espresso Shots",
+                    "list": [
+                        {
+                            "name": "Espresso",
+                            "img": "/img02.jpg",
+                            "description": "A rich and intense coffee brewed by forcing hot water through finely ground coffee beans.",
+                            "ingredients": [
+                                "Espresso"
+                            ],
+                            "size": [
+                                "1 oz",
+                                "2 oz"
+                            ],
+                            "price": [
+                                4,
+                                6
+                            ]
+                        },
+                        {
+                            "name": "Espresso Doppio",
+                            "img": "/img050.jpg",
+                            "description": "A double shot of espresso, offering twice the intensity and flavor in every sip.",
+                            "ingredients": [
+                                "Double Espresso"
+                            ],
+                            "size": [
+                                "2 oz"
+                            ],
+                            "price": [
+                                6
+                            ]
+                        },
+                        {
+                            "name": "Espresso Macchiato",
+                            "img": "/img051.jpg",
+                            "description": "A bold shot of espresso topped with a small dollop of milk foam, balancing intensity with creaminess.",
+                            "ingredients": [
+                                "Espresso",
+                                "Milk Foam"
+                            ],
+                            "size": [
+                                "1 oz",
+                                "2 oz"
+                            ],
+                            "price": [
+                                4,
+                                6
+                            ]
+                        },
+                        {
+                            "name": "Espresso Con Panna",
+                            "img": "/img03.jpg",
+                            "description": "A decadent espresso shot topped with a dollop of whipped cream for a rich, creamy experience.",
+                            "ingredients": [
+                                "Espresso",
+                                "Whipped Cream"
+                            ],
+                            "size": [
+                                "1 oz",
+                                "2 oz"
+                            ],
+                            "price": [
+                                5,
+                                7
+                            ]
+                        },
+                        {
+                            "name": "Espresso Romano",
+                            "img": "/img04.jpg",
+                            "description": "A unique espresso served with a slice of lemon to add a zesty twist to the bold flavor.",
+                            "ingredients": [
+                                "Espresso",
+                                "Lemon Slice"
+                            ],
+                            "size": [
+                                "1 oz"
+                            ],
+                            "price": [
+                                4
+                            ]
+                        },
+                        {
+                            "name": "Affogato",
+                            "img": "/img05.jpg",
+                            "description": "A delightful combination of hot espresso poured over a scoop of vanilla ice cream, creating a rich dessert-drink.",
+                            "ingredients": [
+                                "Espresso",
+                                "Vanilla Ice Cream"
+                            ],
+                            "size": [
+                                "1 oz",
+                                "2 oz"
+                            ],
+                            "price": [
+                                6,
+                                8
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cappuccino",
+                    "list": [
+                        {
+                            "name": "Traditional Cappuccino",
+                            "img": "/img06.jpg",
+                            "description": "A classic cappuccino made with equal parts espresso, steamed milk, and milk foam.",
+                            "ingredients": [
+                                "Espresso",
+                                "Steamed Milk",
+                                "Milk Foam"
+                            ],
+                            "size": [
+                                "8 oz",
+                                "12 oz"
+                            ],
+                            "price": [
+                                4,
+                                6
+                            ]
+                        },
+                        {
+                            "name": "Bone Dry Cappuccino",
+                            "img": "/img052.jpg",
+                            "description": "A cappuccino made with just espresso and a thick layer of milk foam, no steamed milk.",
+                            "ingredients": [
+                                "Espresso",
+                                "Milk Foam"
+                            ],
+                            "size": [
+                                "8 oz",
+                                "12 oz"
+                            ],
+                            "price": [
+                                4,
+                                6
+                            ]
+                        },
+                        {
+                            "name": "Wet Cappuccino",
+                            "img": "/img053.jpg",
+                            "description": "A cappuccino with more steamed milk and less foam, making it creamier and smoother.",
+                            "ingredients": [
+                                "Espresso",
+                                "Steamed Milk",
+                                "Milk Foam"
+                            ],
+                            "size": [
+                                "8 oz",
+                                "12 oz"
+                            ],
+                            "price": [
+                                4,
+                                6
+                            ]
+                        },
+                        {
+                            "name": "Dry Cappuccino",
+                            "img": "/img054.jpg",
+                            "description": "A cappuccino made with a thick layer of foam and little to no steamed milk.",
+                            "ingredients": [
+                                "Espresso",
+                                "Milk Foam"
+                            ],
+                            "size": [
+                                "8 oz",
+                                "12 oz"
+                            ],
+                            "price": [
+                                4,
+                                6
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Latte",
+                    "list": [
+                        {
+                            "name": "Classic Latte",
+                            "img": "/img07.jpg",
+                            "description": "A smooth and creamy latte made with espresso and steamed milk, topped with a thin layer of milk foam.",
+                            "ingredients": [
+                                "Espresso",
+                                "Steamed Milk",
+                                "Milk Foam"
+                            ],
+                            "size": [
+                                "8 oz",
+                                "12 oz"
+                            ],
+                            "price": [
+                                4,
+                                6
+                            ]
+                        },
+                        {
+                            "name": "Iceed Latte",
+                            "img": "/img055.jpg",
+                            "description": "A latte with added flavor syrups like vanilla, caramel, or hazelnut for a sweet twist.",
+                            "ingredients": [
+                                "Espresso",
+                                "Steamed Milk",
+                                "Milk Foam",
+                                "Flavor Syrup"
+                            ],
+                            "size": [
+                                "8 oz",
+                                "12 oz"
+                            ],
+                            "price": [
+                                5,
+                                7
+                            ]
+                        },
+                        {
+                            "name": "Matcha Latte",
+                            "img": "/img056.jpg",
+                            "description": "A creamy latte made with matcha powder, steamed milk, and a subtle sweetness.",
+                            "ingredients": [
+                                "Matcha Powder",
+                                "Steamed Milk",
+                                "Milk Foam"
+                            ],
+                            "size": [
+                                "8 oz",
+                                "12 oz"
+                            ],
+                            "price": [
+                                5,
+                                7
+                            ]
+                        },
+                        {
+                            "name": "Chai Latte",
+                            "img": "/img057.jpg",
+                            "description": "A spiced latte made with chai tea concentrate, steamed milk, and a perfect blend of spices.",
+                            "ingredients": [
+                                "Chai Tea",
+                                "Steamed Milk",
+                                "Milk Foam"
+                            ],
+                            "size": [
+                                "8 oz",
+                                "12 oz"
+                            ],
+                            "price": [
+                                5,
+                                7
+                            ]
+                        },
+                        {
+                            "name": "Golden Latte",
+                            "img": "/img058.jpg",
+                            "description": "A warm, golden drink made with turmeric, steamed milk, and a hint of cinnamon and honey.",
+                            "ingredients": [
+                                "Turmeric",
+                                "Steamed Milk",
+                                "Cinnamon",
+                                "Honey"
+                            ],
+                            "size": [
+                                "8 oz",
+                                "12 oz"
+                            ],
+                            "price": [
+                                5,
+                                7
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Macchiato",
+                    "list": [
+                        {
+                            "name": "Latte Macchiato",
+                            "img": "/img08.jpg",
+                            "description": "A layered drink with espresso poured over steamed milk, topped with a light layer of foam.",
+                            "ingredients": [
+                                "Espresso",
+                                "Steamed Milk",
+                                "Milk Foam"
+                            ],
+                            "size": [
+                                "8 oz",
+                                "12 oz"
+                            ],
+                            "price": [
+                                4,
+                                6
+                            ]
+                        },
+                        {
+                            "name": "Caramel Macchiato",
+                            "img": "/img059.jpg",
+                            "description": "A sweet macchiato made with caramel syrup, espresso, steamed milk, and a touch of foam.",
+                            "ingredients": [
+                                "Espresso",
+                                "Steamed Milk",
+                                "Caramel Syrup",
+                                "Milk Foam"
+                            ],
+                            "size": [
+                                "8 oz",
+                                "12 oz"
+                            ],
+                            "price": [
+                                5,
+                                7
+                            ]
+                        },
+                        {
+                            "name": "Mocha Macchiato",
+                            "img": "/img060.jpg",
+                            "description": "A decadent macchiato made with espresso, chocolate syrup, steamed milk, and milk foam.",
+                            "ingredients": [
+                                "Espresso",
+                                "Chocolate Syrup",
+                                "Steamed Milk",
+                                "Milk Foam"
+                            ],
+                            "size": [
+                                "8 oz",
+                                "12 oz"
+                            ],
+                            "price": [
+                                5,
+                                7
+                            ]
+                        },
+                        {
+                            "name": "Dry Macchiato",
+                            "img": "/img061.jpg",
+                            "description": "A macchiato with a strong espresso base and a thick, dry layer of milk foam.",
+                            "ingredients": [
+                                "Espresso",
+                                "Milk Foam"
+                            ],
+                            "size": [
+                                "8 oz",
+                                "12 oz"
+                            ],
+                            "price": [
+                                4,
+                                6
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Lemonades",
+            "list": [
+                {
+                    "list": [
+                        {
+                            "name": "Classic Lemonade",
+                            "img": "/img09.jpg",
+                            "description": "Refreshing lemonade made with fresh lemon juice, water, and sugar.",
+                            "ingredients": [
+                                "Lemon Juice",
+                                "Water",
+                                "Sugar"
+                            ],
+                            "size": [
+                                "12 oz",
+                                "16 oz"
+                            ],
+                            "price": [
+                                3,
+                                5
+                            ]
+                        },
+                        {
+                            "name": "Pink Lemonade",
+                            "img": "/img010.jpg",
+                            "description": "A sweet and tangy lemonade with a splash of cranberry or raspberry juice.",
+                            "ingredients": [
+                                "Lemon Juice",
+                                "Cranberry Juice or Raspberry Juice",
+                                "Water",
+                                "Sugar"
+                            ],
+                            "size": [
+                                "12 oz",
+                                "16 oz"
+                            ],
+                            "price": [
+                                4,
+                                6
+                            ]
+                        },
+                        {
+                            "name": "Mint Lemonade",
+                            "img": "/img011.jpg",
+                            "description": "A cooling lemonade infused with fresh mint leaves for a refreshing flavor.",
+                            "ingredients": [
+                                "Lemon Juice",
+                                "Mint Leaves",
+                                "Water",
+                                "Sugar"
+                            ],
+                            "size": [
+                                "12 oz",
+                                "16 oz"
+                            ],
+                            "price": [
+                                4,
+                                6
+                            ]
+                        },
+                        {
+                            "name": "Strawberry Lemonade",
+                            "img": "/img012.jpg",
+                            "description": "A fruity lemonade made with fresh strawberries blended into the mix.",
+                            "ingredients": [
+                                "Lemon Juice",
+                                "Strawberries",
+                                "Water",
+                                "Sugar"
+                            ],
+                            "size": [
+                                "12 oz",
+                                "16 oz"
+                            ],
+                            "price": [
+                                4,
+                                6
+                            ]
+                        },
+                        {
+                            "name": "Blueberry Lemonade",
+                            "img": "/img013.jpg",
+                            "description": "A tangy-sweet lemonade blended with fresh or pureed blueberries.",
+                            "ingredients": [
+                                "Lemon Juice",
+                                "Blueberries",
+                                "Water",
+                                "Sugar"
+                            ],
+                            "size": [
+                                "12 oz",
+                                "16 oz"
+                            ],
+                            "price": [
+                                4,
+                                6
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tea",
+            "list": [
+                {
+                    "list": [
+                        {
+                            "name": "Black Tea",
+                            "img": "/img014.jpg",
+                            "description": "Strong, robust, and often has malty or floral notes.",
+                            "ingredients": [
+                                "Tea Leaves (Camellia sinensis)"
+                            ],
+                            "size": [
+                                "8 oz",
+                                "12 oz"
+                            ],
+                            "price": [
+                                3,
+                                5
+                            ]
+                        },
+                        {
+                            "name": "Green Tea",
+                            "img": "/img015.jpg",
+                            "description": "Light and refreshing with a grassy flavor.",
+                            "ingredients": [
+                                "Tea Leaves (Camellia sinensis)"
+                            ],
+                            "size": [
+                                "8 oz",
+                                "12 oz"
+                            ],
+                            "price": [
+                                3,
+                                5
+                            ]
+                        },
+                        {
+                            "name": "White Tea",
+                            "img": "/img016.jpg",
+                            "description": "Delicate and slightly sweet, the least processed of all teas.",
+                            "ingredients": [
+                                "Tea Leaves (Camellia sinensis)"
+                            ],
+                            "size": [
+                                "8 oz",
+                                "12 oz"
+                            ],
+                            "price": [
+                                4,
+                                6
+                            ]
+                        },
+                        {
+                            "name": "Oolong Tea",
+                            "img": "/img017.jpg",
+                            "description": "Partially fermented tea with a flavor profile between black and green tea.",
+                            "ingredients": [
+                                "Tea Leaves (Camellia sinensis)"
+                            ],
+                            "size": [
+                                "8 oz",
+                                "12 oz"
+                            ],
+                            "price": [
+                                4,
+                                6
+                            ]
+                        },
+                        {
+                            "name": "Herbal Tea",
+                            "img": "/img018.jpg",
+                            "description": "Made from herbs, flowers, or fruits, with no tea leaves.",
+                            "ingredients": [
+                                "Herbs, Flowers, or Fruits"
+                            ],
+                            "size": [
+                                "8 oz",
+                                "12 oz"
+                            ],
+                            "price": [
+                                3,
+                                5
+                            ]
+                        },
+                        {
+                            "name": "Chai",
+                            "img": "/img019.jpg",
+                            "description": "A spiced tea from India made with black tea, milk, sugar, and spices like cinnamon and cardamom.",
+                            "ingredients": [
+                                "Black Tea",
+                                "Milk",
+                                "Sugar",
+                                "Cinnamon",
+                                "Cardamom",
+                                "Ginger"
+                            ],
+                            "size": [
+                                "8 oz",
+                                "12 oz"
+                            ],
+                            "price": [
+                                4,
+                                6
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bottled",
+            "list": [
+                {
+                    "list": [
+                        {
+                            "name": "Water",
+                            "img": "/img020.jpg",
+                            "description": "Still or sparkling water, available in various bottle sizes.",
+                            "ingredients": [
+                                "Water"
+                            ],
+                            "size": [
+                                "250 ml",
+                                "500 ml",
+                                "1 L"
+                            ],
+                            "price": [
+                                1,
+                                2,
+                                3
+                            ]
+                        },
+                        {
+                            "name": "Juice",
+                            "img": "/img021.jpg",
+                            "description": "Fresh fruit juice: orange, apple, and mixed fruit blends.",
+                            "ingredients": [
+                                "Fruit Juice",
+                                "Water",
+                                "Sugar"
+                            ],
+                            "size": [
+                                "250 ml",
+                                "500 ml"
+                            ],
+                            "price": [
+                                3,
+                                5
+                            ]
+                        },
+                        {
+                            "name": "Iced Tea",
+                            "img": "/img022.jpg",
+                            "description": "Ready-to-drink iced tea in flavors like lemon, peach, or unsweetened.",
+                            "ingredients": [
+                                "Tea",
+                                "Sugar",
+                                "Flavorings"
+                            ],
+                            "size": [
+                                "250 ml",
+                                "500 ml"
+                            ],
+                            "price": [
+                                3,
+                                5
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "toppings": [
+        {
+            "name": "Classic Toppings",
+            "list": [
+                {
+                    "list": [
+                        {
+                            "name": "Whipped Cream",
+                            "img": "/img023.jpg",
+                            "description": "Light and fluffy whipped cream that adds a creamy and sweet touch to your coffee drinks.",
+                            "ingredients": [
+                                "Heavy Cream",
+                                "Sugar"
+                            ],
+                            "size": [
+                                "1 oz",
+                                "2 oz"
+                            ],
+                            "price": [
+                                1.5,
+                                2
+                            ]
+                        },
+                        {
+                            "name": "Cinnamon",
+                            "img": "/img024.jpg",
+                            "description": "A sprinkle of cinnamon adds a warm and spicy flavor to your coffee.",
+                            "ingredients": [
+                                "Cinnamon"
+                            ],
+                            "size": [
+                                "1 tsp"
+                            ],
+                            "price": [
+                                0.5
+                            ]
+                        },
+                        {
+                            "name": "Caramel Drizzle",
+                            "img": "/img025.jpg",
+                            "description": "Sweet caramel sauce drizzled over the top for a smooth and rich sweetness.",
+                            "ingredients": [
+                                "Caramel Sauce"
+                            ],
+                            "size": [
+                                "1 oz"
+                            ],
+                            "price": [
+                                1.5
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Gourmet & Specialty Toppings",
+            "list": [
+                {
+                    "list": [
+                        {
+                            "name": "Marshmallows",
+                            "img": "/img026.jpg",
+                            "description": "Soft, fluffy marshmallows that melt into your hot drink, giving it a creamy texture.",
+                            "ingredients": [
+                                "Marshmallows"
+                            ],
+                            "size": [
+                                "5 pieces"
+                            ],
+                            "price": [
+                                1.5
+                            ]
+                        },
+                        {
+                            "name": "Oreo Crumbles",
+                            "img": "/img027.jpg",
+                            "description": "Crushed Oreo cookies added for a sweet, crunchy texture and chocolate flavor.",
+                            "ingredients": [
+                                "Oreo Cookies"
+                            ],
+                            "size": [
+                                "1 oz"
+                            ],
+                            "price": [
+                                2
+                            ]
+                        },
+                        {
+                            "name": "Crushed Ice",
+                            "img": "/img028.jpg",
+                            "description": "Finely crushed ice for a refreshing and icy texture, perfect for iced coffee drinks.",
+                            "ingredients": [
+                                "Ice"
+                            ],
+                            "size": [
+                                "1 oz"
+                            ],
+                            "price": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Healthy Toppings",
+            "list": [
+                {
+                    "list": [
+                        {
+                            "name": "Almond Flakes",
+                            "img": "/img029.jpg",
+                            "description": "Slivered almonds that add a nutty crunch and healthy fats to your coffee drink.",
+                            "ingredients": [
+                                "Almonds"
+                            ],
+                            "size": [
+                                "1 oz"
+                            ],
+                            "price": [
+                                2
+                            ]
+                        },
+                        {
+                            "name": "Cocoa Powder",
+                            "img": "/img030.jpg",
+                            "description": "A dusting of unsweetened cocoa powder adds a rich, chocolatey flavor to your drink.",
+                            "ingredients": [
+                                "Cocoa Powder"
+                            ],
+                            "size": [
+                                "1 tsp"
+                            ],
+                            "price": [
+                                1
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Seasonal & Festive Toppings",
+            "list": [
+                {
+                    "list": [
+                        {
+                            "name": "Pumpkin Spice",
+                            "img": "/img031.jpg",
+                            "description": "A blend of cinnamon, nutmeg, ginger, and cloves, perfect for fall-inspired drinks.",
+                            "ingredients": [
+                                "Cinnamon",
+                                "Nutmeg",
+                                "Ginger",
+                                "Cloves"
+                            ],
+                            "size": [
+                                "1 tsp"
+                            ],
+                            "price": [
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Candy Cane Pieces",
+                            "img": "/img032.jpg",
+                            "description": "Crushed peppermint candy canes for a festive minty flavor in your winter drinks.",
+                            "ingredients": [
+                                "Candy Canes"
+                            ],
+                            "size": [
+                                "5 pieces"
+                            ],
+                            "price": [
+                                2
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Exotic Toppings",
+            "list": [
+                {
+                    "list": [
+                        {
+                            "name": "Matcha Powder",
+                            "img": "/img033.jpg",
+                            "description": "Green tea powder that gives a slightly bitter and earthy flavor to your coffee or latte.",
+                            "ingredients": [
+                                "Matcha"
+                            ],
+                            "size": [
+                                "1 tsp"
+                            ],
+                            "price": [
+                                2
+                            ]
+                        },
+                        {
+                            "name": "Edible Flowers",
+                            "img": "/img034.jpg",
+                            "description": "Fresh flowers like lavender, rose petals, or violets for a delicate, aromatic touch.",
+                            "ingredients": [
+                                "Lavender",
+                                "Rose Petals",
+                                "Violets"
+                            ],
+                            "size": [
+                                "1 flower"
+                            ],
+                            "price": [
+                                2
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "food": [
+        {
+            "name": "Cakes",
+            "list": [
+                {
+                    "list": [
+                        {
+                            "name": "Chocolate Cake",
+                            "img": "/img035.jpg",
+                            "description": "Rich and moist chocolate cake with a decadent chocolate frosting.",
+                            "ingredients": [
+                                "Cocoa powder",
+                                "Flour",
+                                "Sugar",
+                                "Butter",
+                                "Eggs"
+                            ],
+                            "size": [
+                                "Slice",
+                                "Whole"
+                            ],
+                            "price": [
+                                5,
+                                25
+                            ]
+                        },
+                        {
+                            "name": "Cheesecake",
+                            "img": "/img036.jpg",
+                            "description": "Creamy cheesecake with a buttery graham cracker crust.",
+                            "ingredients": [
+                                "Cream cheese",
+                                "Sugar",
+                                "Eggs",
+                                "Vanilla extract",
+                                "Graham cracker crumbs"
+                            ],
+                            "size": [
+                                "Slice",
+                                "Whole"
+                            ],
+                            "price": [
+                                6,
+                                30
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cookies",
+            "list": [
+                {
+                    "list": [
+                        {
+                            "name": "Chocolate Chip Cookies",
+                            "img": "/img037.jpg",
+                            "description": "Classic chocolate chip cookies with a crispy edge and soft center.",
+                            "ingredients": [
+                                "Flour",
+                                "Sugar",
+                                "Butter",
+                                "Chocolate chips",
+                                "Eggs"
+                            ],
+                            "size": [
+                                "Single",
+                                "Box (6)",
+                                "Box (12)"
+                            ],
+                            "price": [
+                                2,
+                                10,
+                                20
+                            ]
+                        },
+                        {
+                            "name": "Oatmeal Cookies",
+                            "img": "/img038.jpg",
+                            "description": "Chewy oatmeal cookies with a hint of cinnamon.",
+                            "ingredients": [
+                                "Oats",
+                                "Butter",
+                                "Sugar",
+                                "Cinnamon",
+                                "Eggs"
+                            ],
+                            "size": [
+                                "Single",
+                                "Box (6)",
+                                "Box (12)"
+                            ],
+                            "price": [
+                                2,
+                                10,
+                                18
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Pastries",
+            "list": [
+                {
+                    "list": [
+                        {
+                            "name": "Croissant",
+                            "img": "/img039.jpg",
+                            "description": "Flaky, buttery croissants with a golden, crispy crust.",
+                            "ingredients": [
+                                "Flour",
+                                "Butter",
+                                "Sugar",
+                                "Yeast",
+                                "Milk"
+                            ],
+                            "size": [
+                                "Single",
+                                "Pack (3)"
+                            ],
+                            "price": [
+                                3,
+                                8
+                            ]
+                        },
+                        {
+                            "name": "Éclair",
+                            "img": "/img040.jpg",
+                            "description": "Cream-filled pastry with a shiny chocolate glaze.",
+                            "ingredients": [
+                                "Flour",
+                                "Butter",
+                                "Sugar",
+                                "Eggs",
+                                "Vanilla custard"
+                            ],
+                            "size": [
+                                "Single"
+                            ],
+                            "price": [
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Pies & Tarts",
+            "list": [
+                {
+                    "list": [
+                        {
+                            "name": "Apple Pie",
+                            "img": "/img041.jpg",
+                            "description": "Classic apple pie with a flaky crust and cinnamon-spiced apples.",
+                            "ingredients": [
+                                "Apples",
+                                "Sugar",
+                                "Cinnamon",
+                                "Butter",
+                                "Flour"
+                            ],
+                            "size": [
+                                "Slice",
+                                "Whole"
+                            ],
+                            "price": [
+                                4,
+                                20
+                            ]
+                        },
+                        {
+                            "name": "Meringue Pie",
+                            "img": "/img042.jpg",
+                            "description": "Light, airy meringue topping over a tangy lemon filling.",
+                            "ingredients": [
+                                "Egg whites",
+                                "Sugar",
+                                "Lemon juice",
+                                "Butter",
+                                "Cornstarch"
+                            ],
+                            "size": [
+                                "Slice",
+                                "Whole"
+                            ],
+                            "price": [
+                                5,
+                                22
+                            ]
+                        },
+                        {
+                            "name": "Pecan Pie",
+                            "img": "/img043.jpg",
+                            "description": "Sweet and sticky pie filled with toasted pecans and syrup.",
+                            "ingredients": [
+                                "Pecans",
+                                "Sugar",
+                                "Eggs",
+                                "Butter",
+                                "Corn syrup"
+                            ],
+                            "size": [
+                                "Slice",
+                                "Whole"
+                            ],
+                            "price": [
+                                5,
+                                22
+                            ]
+                        },
+                        {
+                            "name": "Fruit Tart",
+                            "img": "/img044.jpg",
+                            "description": "Delicate pastry shells filled with custard and topped with fresh fruit.",
+                            "ingredients": [
+                                "Pastry crust",
+                                "Vanilla custard",
+                                "Fresh fruits",
+                                "Sugar glaze"
+                            ],
+                            "size": [
+                                "Single",
+                                "Pack (3)"
+                            ],
+                            "price": [
+                                4,
+                                12
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Muffins & Cupcakes",
+            "list": [
+                {
+                    "list": [
+                        {
+                            "name": "Blueberry Muffin",
+                            "img": "/img045.jpg",
+                            "description": "Soft muffins filled with fresh blueberries and a hint of lemon.",
+                            "ingredients": [
+                                "Flour",
+                                "Sugar",
+                                "Blueberries",
+                                "Butter",
+                                "Eggs"
+                            ],
+                            "size": [
+                                "Single",
+                                "Pack (3)"
+                            ],
+                            "price": [
+                                3,
+                                8
+                            ]
+                        },
+                        {
+                            "name": "Banana Bread",
+                            "img": "/img046.jpg",
+                            "description": "Moist and flavorful bread made with ripe bananas and a dash of cinnamon.",
+                            "ingredients": [
+                                "Bananas",
+                                "Sugar",
+                                "Flour",
+                                "Eggs",
+                                "Butter"
+                            ],
+                            "size": [
+                                "Slice",
+                                "Loaf"
+                            ],
+                            "price": [
+                                3,
+                                12
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cheesecakes",
+            "list": [
+                {
+                    "list": [
+                        {
+                            "name": "Classic Cheesecake",
+                            "img": "/img047.jpg",
+                            "description": "Traditional creamy cheesecake with a buttery graham cracker crust.",
+                            "ingredients": [
+                                "Cream cheese",
+                                "Sugar",
+                                "Eggs",
+                                "Vanilla",
+                                "Graham cracker crust"
+                            ],
+                            "size": [
+                                "Slice",
+                                "Whole"
+                            ],
+                            "price": [
+                                6,
+                                30
+                            ]
+                        },
+                        {
+                            "name": "Ricotta Cheesecake",
+                            "img": "/img048.jpg",
+                            "description": "Cheesecake made with smooth ricotta cheese and a touch of lemon.",
+                            "ingredients": [
+                                "Ricotta cheese",
+                                "Sugar",
+                                "Eggs",
+                                "Vanilla",
+                                "Lemon zest"
+                            ],
+                            "size": [
+                                "Slice",
+                                "Whole"
+                            ],
+                            "price": [
+                                6,
+                                30
+                            ]
+                        },
+                        {
+                            "name": "Savory Cheese Pie",
+                            "img": "/img049.jpg",
+                            "description": "Savory pie made with creamy cheese, spinach, and herbs.",
+                            "ingredients": [
+                                "Cream cheese",
+                                "Spinach",
+                                "Eggs",
+                                "Onions",
+                                "Pastry crust"
+                            ],
+                            "size": [
+                                "Slice",
+                                "Whole"
+                            ],
+                            "price": [
+                                5,
+                                20
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "gifts": [
+        {
+            "name": "Season cards",
+            "list": [
+                {
+                    "name": "Spring",
+                    "img": "/image-2.png",
+                    "description": "Celebrate the season of renewal with vibrant greens and blossoming flowers. Perfect for fresh beginnings."
+                },
+                {
+                    "name": "Summer",
+                    "img": "/image-3.png",
+                    "description": "Bring the warmth and brightness of sunny days with this card, ideal for carefree and cheerful moments."
+                },
+                {
+                    "name": "Autumn",
+                    "img": "/image-1.png",
+                    "description": "Capture the cozy charm of falling leaves and warm colors, perfect for celebrating seasonal traditions."
+                },
+                {
+                    "name": "Winter",
+                    "img": "/image.png",
+                    "description": "Embrace the frosty magic of snowflakes and cozy nights by the fire, a card full of wintery charm."
+                }
+            ]
+        },
+        {
+            "name": "Special edition",
+            "list": [
+                {
+                    "name": "Golden",
+                    "img": "/image-6.png",
+                    "description": "A luxurious card with a radiant golden touch, symbolizing success and celebration."
+                },
+                {
+                    "name": "Silver",
+                    "img": "/image-7.png",
+                    "description": "Elegant and sleek, this silver card is perfect for commemorating timeless moments."
+                },
+                {
+                    "name": "Bronze",
+                    "img": "/image-5.png",
+                    "description": "Warm and grounded, this bronze card adds a classic and earthy charm to any occasion."
+                },
+                {
+                    "name": "The Barista's Best",
+                    "img": "/image-4.png",
+                    "description": "Celebrate coffee artistry with a card designed for true coffee lovers and aficionados."
+                },
+                {
+                    "name": "Espresso Express",
+                    "img": "/image-13.png",
+                    "description": "Fast, bold, and full of energy – this card is ideal for those who live life in the fast lane."
+                },
+                {
+                    "name": "Mug of Magic",
+                    "img": "/image16.png",
+                    "description": "A whimsical card that brings a sprinkle of enchantment to any coffee or tea lover's day."
+                },
+                {
+                    "name": "The Daily Dip",
+                    "img": "/image-12.png",
+                    "description": "Perfect for starting daily routines, this card reflects comfort and small daily indulgences."
+                }
+            ]
+        },
+        {
+            "name": "Birthday",
+            "list": [
+                {
+                    "name": "Brew & Birthday Wishes",
+                    "img": "/image-10.png",
+                    "description": "Send warm birthday wishes steeped in love and paired with the aroma of freshly brewed coffee."
+                },
+                {
+                    "name": "Espresso Yourself - It's Your Day!",
+                    "img": "/image-11.png",
+                    "description": "A playful and uplifting card to celebrate birthdays with a shot of personality and fun."
+                },
+                {
+                    "name": "Sip, Sip Hooray!",
+                    "img": "/image-9.png",
+                    "description": "Raise a mug and toast to another year of happiness and joy with this cheerful card."
+                },
+                {
+                    "name": "Another Year, Another Cup!",
+                    "img": "/image14.png",
+                    "description": "Celebrate another trip around the sun with a card that reflects comfort and sweet memories."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+.gifts {
+    margin: 4em 1em;
+}
+
+.category-container {
+    margin-top: 2em;
+}
+
+.category {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline
+}
+
+h2 {
+    margin: 0;
+    margin-left: 2em;
+}
+
+p {
+    margin: 0;
+    margin-left: 2em;
+    font-size: larger;
+}
+
+app-product {
+    margin: 1em;
+    width: 17em;
+}
+
+@media (max-width: 767px) {
+    app-product {
+        margin: 0;
+        width: 9em;
+
+    }
+
+    .gifts {
+        margin: 2em 0.5em;
+    }
+
+    .category-container {
+        margin-top: 1em;
+    }
+
+    h2 {
+        margin-left: 1em;
+    }
+
+    p {
+        margin-left: 1em;
+    }
+}

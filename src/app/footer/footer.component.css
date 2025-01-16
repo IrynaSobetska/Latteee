@@ -1,0 +1,45 @@
+.footer-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 2em 0 0 0;
+    margin: 0;
+}
+
+.list-list {
+    display: flex;
+    justify-content: center
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 1em 0;
+}
+
+h3 {
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
+p {
+    margin: 0.3em 3em;
+}
+
+a {
+    background: none;
+}
+
+@media (max-width: 767px) {
+    .list-list {
+        flex-wrap: wrap;
+    }
+
+    .list {
+        width: 49%;
+    }
+}

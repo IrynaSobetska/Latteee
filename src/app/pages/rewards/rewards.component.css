@@ -1,0 +1,221 @@
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 2em;
+
+    background-image: url(/image23.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+}
+
+.container {
+    margin: 3em 2em;
+    margin-bottom: 0;
+}
+
+.btn-container {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.author {
+    text-align: end;
+}
+
+.points-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.points {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+
+    position: relative;
+    bottom: -2em;
+    left: -2em;
+    z-index: 1;
+}
+
+.points div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 10em;
+}
+
+.points p {
+    margin: 0;
+}
+
+.tiers-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+
+    position: relative;
+    bottom: 7em;
+
+}
+
+
+
+.tiers-container p {
+    text-align: end;
+    margin: 0;
+    z-index: 1;
+}
+
+.tiers {
+    min-width: 15em;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+
+    position: relative;
+    bottom: -6em;
+    left: 4em;
+}
+
+.perks {
+    min-width: 15em;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.owner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    position: relative;
+    bottom: 6em;
+}
+
+
+
+img {
+    height: 20em;
+}
+
+.citation {
+    max-width: 66%;
+    min-width: 20%;
+}
+
+h2 {
+    font-size: xx-large;
+    font-weight: 300;
+}
+
+h3 {
+    font-weight: 300;
+}
+
+li {
+    list-style: none;
+}
+
+@media (max-width: 767px) {
+
+    .welcome {
+        padding: 1.5em;
+    }
+
+    h2 {
+        font-size: x-large;
+        margin: 0.5em 0;
+    }
+
+    .container {
+        margin: 2em 1em;
+    }
+
+
+    .points-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .points {
+        position: relative;
+        bottom: -2em;
+        left: -1em;
+    }
+
+    .points div {
+        min-width: 5em;
+    }
+
+    .points-container .citation {
+        margin-top: 2em;
+    }
+
+
+    .tiers-container {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-top: 0.5em;
+        bottom: 0;
+    }
+
+    .tiers {
+        bottom: -2em;
+        left: 1em;
+        min-width: 12em;
+        margin: 0.5em;
+    }
+
+    .perks {
+        min-width: 12em;
+        margin-top: 2em;
+    }
+
+    .owner {
+        flex-wrap: wrap;
+        align-items: baseline;
+        justify-content: center;
+        bottom: 0;
+    }
+
+    .owner img {
+        width: 9em;
+    }
+
+    .citation {
+        max-width: 50%;
+    }
+
+    h3 {
+        margin: 0 0 0.5em;
+    }
+
+    img {
+        height: auto;
+        width: 7em;
+    }
+}
+
+@media (max-width: 520px) {
+
+    .points-container {
+        justify-content: flex-end;
+    }
+
+    .citation {
+        max-width: 80%;
+    }
+
+    .owner {
+        justify-content: flex-end;
+    }
+}

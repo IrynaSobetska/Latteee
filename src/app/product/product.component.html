@@ -1,0 +1,50 @@
+<div class="product">
+    <img class="listing-photo" [src]="productDetails.img" alt="Photo of product" (click)="openModal()" />
+    <p>{{ productDetails?.name }}</p>
+</div>
+<!-- Modal -->
+<div class="modal" *ngIf="isModalOpen" (click)="closeModal()">
+    <div class="modal-content dark" (click)="$event.stopPropagation()">
+        <span class="close" (click)="closeModal()">&times;</span>
+        <div class="top">
+            <div class="image-cropper">
+                <img [src]="productDetails.img" alt="Photo of product" />
+            </div>
+            <div class="top-text">
+                <p class="header">{{ productDetails?.name }}</p>
+                <p>{{ productDetails?.description}}</p>
+            </div>
+
+        </div>
+
+        <div class="bottom" *ngIf="!isGiftsRoute">
+            <div class="bottom-ingr">
+                <p class="header-mid">Ingredients:</p>
+                <ul class="ingredients">
+                    <li *ngFor="let ingredient of productDetails?.ingredients">
+                        {{ ingredient }}
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom-opt">
+                <div class="bottom-dets">
+                    <p class="header-mid">Size Options:</p>
+                    <div class="options">
+                        <p class="size" *ngFor="let size of productDetails?.size">
+                            {{ size }}
+                        </p>
+                    </div>
+                </div>
+                <div class="bottom-dets">
+                    <p class="header-mid">Price:</p>
+                    <div class="options">
+                        <p *ngFor="let price of productDetails?.price">
+                            {{ price }} €
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

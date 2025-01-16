@@ -1,0 +1,10 @@
+<div class="gifts">
+    <h2>Gift Cards</h2>
+    <div class="category-container" *ngFor="let category of productDetailsList">
+        <p>{{ category?.name }}</p>
+        <div class="category">
+            <app-product *ngFor="let product of category?.list" [productDetails]="product">
+            </app-product>
+        </div>
+    </div>
+</div>

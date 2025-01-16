@@ -1,0 +1,83 @@
+:root {
+    --dark-brown: #24190f;
+    --mid-brown: #47342d;
+    --light-brown: rgba(184, 146, 136, 0.5);
+    --bege: #ffe6d3;
+}
+
+body {
+    max-width: 100%;
+    min-height: 100vh;
+    margin: 0;
+
+    font-family: "Forum", serif;
+    font-weight: 300;
+}
+
+p {
+    font-size: large;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dark {
+    background: var(--mid-brown);
+    color: var(--bege);
+}
+
+.dark a {
+    color: var(--bege);
+}
+
+.btn {
+    padding: 0.7em 1em;
+    border-radius: 2em;
+
+    color: var(--dark-brown);
+    background: var(--light-brown);
+}
+
+button {
+    border: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+app-main {
+    width: 100%;
+}
+
+app-rewards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+app-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+app-account {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+
+    p {
+        font-size: medium;
+    }
+}
